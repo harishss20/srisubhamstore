@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.brand-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.slider-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+  display: block !important;
+  z-index: 10;
+  color: black;
+  font-size: 24px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.search_bar {
+  width: 300px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  margin: 60px;
+}
+
+.input_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.search_container {
+  position: relative;
+  margin: 12px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: 3px solid #000;
+  border-radius: 100px;
+}
+.line {
+  position: absolute;
+  width: 3px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #000;
+  transform: translate(16px, -5px) rotate(-45deg);
+}
+
+input {
+  width: 140px;
+  font-size: 18px;
+  padding: 1px 10px;
+  background: #fff;
+  border: none;
+  outline: none;
+}
+
+.placeholder {
+  position: absolute;
+  color: #989898;
+  left: 40px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.box {
+  font-size: 15px;
+  margin-right: 4px;
+}
+.slider_box {
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  left: 2;
+  opacity: 1;
+  font-size: 15px;
+  transition: 2s;
+}
