@@ -1,19 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router";
+
 const Footer = () => {
   const navigate = useNavigate();
-  const handleClick1 = () => {
-    navigate("/about");
+
+  const handleNavigation = (path) => {
+    navigate(path);
     window.scrollTo(0, 0);
   };
-  const handleClick2 = () => {
-    navigate("/productsList");
-    window.scrollTo(0, 0);
-  };
-  const handleClick3 = () => {
-    navigate("/privacy");
-    window.scrollTo(0, 0);
-  };
+
   return (
     <footer className="bg-test text-black py-8">
       <div className="container mx-auto px-4">
@@ -34,24 +29,24 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={handleClick1}
-                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
+                  onClick={() => handleNavigation("/about")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
-                  About us
+                  About Us
                 </button>
               </li>
               <li>
                 <button
-                  onClick={handleClick2}
-                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
+                  onClick={() => handleNavigation("/productsList")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
                   Services
                 </button>
               </li>
               <li>
                 <button
-                  onClick={handleClick3}
-                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
+                  onClick={() => handleNavigation("/privacy")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
                   Privacy Policy
                 </button>
@@ -59,6 +54,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Contact Section */}
           <div className="w-full md:w-1/3">
             <h3 className="text-lg font-roboto font-semibold mb-4">
               Contact Us

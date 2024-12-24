@@ -14,30 +14,23 @@ const router = createBrowserRouter(
       path: "/",
       element: <App />,
       errorElement: <ErrorPage />,
-    },
-    {
-      path: "/srisubhamstore",
-      element: <App />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: "/privacy",
-      element: <Policy />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: "/about",
-      element: <About />,
-      errorElement: <ErrorPage />,
-    },
-
-    {
-      path: "/productsList",
-      element: <ProductsList />,
-      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "about",
+          element: <About />,
+        },
+        {
+          path: "privacy",
+          element: <Policy />,
+        },
+        {
+          path: "productsList",
+          element: <ProductsList />,
+        },
+      ],
     },
   ],
-  { basename: "/srisubhamstore/" }
+  { basename: "/srisubhamstore" }
 );
 
 createRoot(document.getElementById("root")).render(
