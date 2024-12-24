@@ -11,7 +11,7 @@ import Policy from "./components/Policy.jsx";
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/srisubhamstore",
       element: <App />,
       errorElement: <ErrorPage />,
     },
