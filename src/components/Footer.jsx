@@ -1,6 +1,19 @@
 import React from "react";
-
+import { useNavigate } from "react-router";
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleClick1 = () => {
+    navigate("/about");
+    window.scrollTo(0, 0);
+  };
+  const handleClick2 = () => {
+    navigate("/productsList");
+    window.scrollTo(0, 0);
+  };
+  const handleClick3 = () => {
+    navigate("/privacy");
+    window.scrollTo(0, 0);
+  };
   return (
     <footer className="bg-test text-black py-8">
       <div className="container mx-auto px-4">
@@ -20,28 +33,28 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/srisubhamstore/about"
-                  className="text-black hover:text-second transition-colors"
+                <button
+                  onClick={handleClick1}
+                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
                 >
-                  About Us
-                </a>
+                  About us
+                </button>
               </li>
               <li>
-                <a
-                  href="/srisubhamstore/productsList"
-                  className="text-black hover:text-second transition-colors"
+                <button
+                  onClick={handleClick2}
+                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
                 >
                   Services
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="/srisubhamstore/privacy"
-                  className="text-black hover:text-second transition-colors"
+                <button
+                  onClick={handleClick3}
+                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
                 >
                   Privacy Policy
-                </a>
+                </button>
               </li>
             </ul>
           </div>

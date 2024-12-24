@@ -16,12 +16,12 @@ const router = createBrowserRouter(
       errorElement: <ErrorPage />,
     },
     {
-      path: "/srisubhamstore/privacy",
+      path: "/privacy",
       element: <Policy />,
       errorElement: <ErrorPage />,
     },
     {
-      path: "/srisubhamstore/about",
+      path: "/about",
       element: <About />,
       errorElement: <ErrorPage />,
     },
