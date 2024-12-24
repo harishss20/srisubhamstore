@@ -35,7 +35,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={handleClick1}
-                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
+                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
                 >
                   About us
                 </button>
@@ -43,7 +43,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={handleClick2}
-                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
+                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
                 >
                   Services
                 </button>
@@ -51,7 +51,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={handleClick3}
-                  className="h-10 text-black underline text-2xl hover:text-second  transition duration-200"
+                  className="h-10 text-black  text-xl hover:text-second  transition duration-200"
                 >
                   Privacy Policy
                 </button>
