@@ -6,7 +6,7 @@ const Policy = () => {
       <div className="container mx-auto bg-white p-8 shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold mb-6 text-black">Privacy Policy</h1>
         <p className="text-gray mb-4">
-          <strong>Last Updated:</strong> [Insert Date]
+          <strong>Last Updated:</strong> 24/12/2024
         </p>
 
         <p className="text-gray mb-6">
