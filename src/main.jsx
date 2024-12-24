@@ -24,7 +24,7 @@ const router = createBrowserRouter(
       errorElement: <ErrorPage />,
     },
   ],
-  { basename: "srisubhamstore" }
+  { basename: "/srisubhamstore/" }
 );
 
 createRoot(document.getElementById("root")).render(
