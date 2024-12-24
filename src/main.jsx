@@ -15,8 +15,16 @@ const router = createBrowserRouter(
       element: <App />,
       errorElement: <ErrorPage />,
     },
-    { path: "/privacy", element: <Policy />, errorElement: <ErrorPage /> },
-    { path: "/about", element: <About />, errorElement: <ErrorPage /> },
+    {
+      path: "/srisubhamstore/privacy",
+      element: <Policy />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/srisubhamstore/about",
+      element: <About />,
+      errorElement: <ErrorPage />,
+    },
 
     {
       path: "/productsList",
