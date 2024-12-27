@@ -35,7 +35,7 @@ const About = () => {
           <p>
             Our delivery system operates in five shifts daily, ensuring timely
             service that fits your routine. Customers can conveniently place
-            orders using our mobile app (currently under development).
+            orders using our mobile app (Currently under development).
           </p>
         </section>
       </main>
