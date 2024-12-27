@@ -15,7 +15,7 @@ export default {
       second: "#81BFDA",
       first: "#F5F7F8",
       white: "#ffffff",
-      black: "#1B1833",
+      black: "#243642",
       green: "#F0F8FF",
       lightBrown: "#FDF7F4",
       gray: "#9AA6B2",
