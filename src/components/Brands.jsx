@@ -51,13 +51,13 @@ function Brands() {
           {brands.map((brand, index) => (
             <div
               key={index}
-              className="flex mt-2 duration-300 pointer-cursor flex-col items-center justify-center gap-2 hover:scale-105 mb-8 "
+              className="flex mt-2 duration-300 pointer-cursor flex-col items-center justify-center gap-2 hover:scale-105 mb-8 border-none"
             >
               <div>
                 <img
                   src={brand.image}
                   alt={brand.name}
-                  className="w-32 h-32 object-cover mx-auto border-2 border-black rounded-full shadow-2xl cursor-pointer"
+                  className="w-32 h-32 object-cover mx-auto border-2 rounded-full shadow-2xl cursor-pointer border-none"
                 />
               </div>
               <h1 className="text-lg text-center mt-2">{brand.name}</h1>
