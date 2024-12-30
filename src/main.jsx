@@ -7,12 +7,10 @@ import ErrorPage from "./components/ErrorPage.jsx";
 import ProductsList from "./components/ProductsList.jsx";
 import About from "./components/About.jsx";
 import Policy from "./components/Policy.jsx";
-import ScrollToTop from "./components/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HashRouter>
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/privacy" element={<Policy />} />
