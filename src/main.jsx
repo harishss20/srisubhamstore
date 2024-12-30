@@ -16,11 +16,6 @@ const router = createBrowserRouter(
       errorElement: <ErrorPage />,
     },
     {
-      path: "/srisubhamstore",
-      element: <App />,
-      errorElement: <ErrorPage />,
-    },
-    {
       path: "/privacy",
       element: <Policy />,
       errorElement: <ErrorPage />,
@@ -30,14 +25,13 @@ const router = createBrowserRouter(
       element: <About />,
       errorElement: <ErrorPage />,
     },
-
     {
       path: "/productsList",
       element: <ProductsList />,
       errorElement: <ErrorPage />,
     },
   ],
-  { basename: "/srisubhamstore/" }
+  { basename: "/srisubhamstore" } // Set basename here
 );
 
 createRoot(document.getElementById("root")).render(
