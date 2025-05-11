@@ -14,17 +14,19 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Use the latest LTS version for better stability and performance
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm ci  # Faster and more reliable than "npm install" for CI/CD
 
       - name: Build project
         run: npm run build
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated to the latest version
         with:
           name: production-files
           path: ./dist
