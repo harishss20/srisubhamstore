@@ -11,25 +11,15 @@ const Home = () => {
         className=" w-full h-auto pb-16 text-white flex flex-col"
         style={{ overflowX: "clip" }}
       >
-        {/* Header Section */}
         <header className="w-full flex justify-between items-center px-8 py-4 bg-orange-500">
-          {/* Logo Section */}
           <div className="flex items-center space-x-2">
             <img id="logo-container" src={logo} alt="Logo" className="h-8" />
-            <h2 className="text-xl font-bold cursor-pointer">Sri Subham</h2>
+            <h2 className="text-xl font-bold cursor-pointer">
+              Sri Subham Stores
+            </h2>
           </div>
-          {/* App Section */}
-          {/* <div className="flex items-center text-white space-x-6">
-            <a
-              href=""
-              className="bg-black text-white px-4 py-2 rounded-md hover:bg-white hover:text-black hover:ease-in-out transition sm:text-sm"
-            >
-              Get the App
-            </a>
-          </div> */}
         </header>
 
-        {/* Main Section */}
         <main className="flex flex-col mt-16 items-center font-gilroy text-center px-8 flex-grow">
           <div className="text-container">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-gilroy shadow-sm font-extrabold mt-8">
