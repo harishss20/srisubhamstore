@@ -58,12 +58,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Section */}
           <div className="w-full md:w-1/3">
             <h3 className="text-lg font-roboto font-semibold mb-4">
               Contact Us
             </h3>
-            <p className="text-gray">Email: srisubhamstores@gmail.com</p>
+            <p className="text-gray">Email: contact@srisubhamstores.com</p>
             <p className="text-gray">Phone: +91 7603824925</p>
             <p className="text-gray">
               Location: No 90/1 Aranmanai Street, Vadakarai, Periyakulam, Theni
