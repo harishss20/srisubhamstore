@@ -41,10 +41,10 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/productsList")}
+                  onClick={() => handleNavigation("/terms")}
                   className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
-                  Services
+                  Terms and Conditions
                 </button>
               </li>
               <li>

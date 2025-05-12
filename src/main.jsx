@@ -7,6 +7,7 @@ import ErrorPage from "./components/ErrorPage.jsx";
 import ProductsList from "./components/ProductsList.jsx";
 import About from "./components/About.jsx";
 import Policy from "./components/Policy.jsx";
+import TermsAndCon from "./components/TermsAndCon.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/privacy" element={<Policy />} />
+        <Route path="/terms" element={<TermsAndCon />} />
         <Route path="/about" element={<About />} />
         <Route path="/productsList" element={<ProductsList />} />
         <Route path="*" element={<ErrorPage />} />
