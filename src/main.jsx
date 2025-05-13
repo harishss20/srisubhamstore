@@ -19,7 +19,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
         <Route path="/privacy" element={<Policy />} />
         <Route path="/terms" element={<TermsAndCon />} />
-        <Route path="/shippingpolicy" element={<ShippingPolicy />} />
+        <Route path="/shipping" element={<ShippingPolicy />} />
         <Route path="/returns" element={<ReturnPolicy />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="/about" element={<About />} />
