@@ -12,7 +12,7 @@ const TermsAndCon = () => {
       <main className="w-11/12 md:w-10/12 lg:w-8/12 my-6 space-y-6">
         <section className="p-6 bg-test rounded-lg shadow-md space-y-4">
           <p className="text-lg md:text-xl">
-            <strong>Effective Date:</strong> 12/5/2025
+            <strong>Effective Date:</strong> 12/05/2025
           </p>
           <p className="text-lg md:text-xl">
             Welcome to the Subham App operated by Sri Subham Stores Private

@@ -41,6 +41,14 @@ const Footer = () => {
               </li>
               <li>
                 <button
+                  onClick={() => handleNavigation("/contact")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
+                >
+                  Contact Us
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => handleNavigation("/terms")}
                   className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
@@ -53,6 +61,22 @@ const Footer = () => {
                   className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
                   Privacy Policy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNavigation("/returns")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
+                >
+                  Cancellation & Refund Policy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNavigation("/ShippingPolicy")}
+                  className="h-10 text-black text-xl hover:text-second transition duration-200"
+                >
+                  Shipping & Delivery Policy
                 </button>
               </li>
             </ul>
