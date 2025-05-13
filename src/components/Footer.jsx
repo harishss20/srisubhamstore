@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/ShippingPolicy")}
+                  onClick={() => handleNavigation("/shippingpolicy")}
                   className="h-10 text-black text-xl hover:text-second transition duration-200"
                 >
                   Shipping & Delivery Policy
