@@ -89,8 +89,8 @@ const Footer = () => {
             <p className="text-gray">Email: contact@srisubhamstores.com</p>
             <p className="text-gray">Phone: +91 7603824925</p>
             <p className="text-gray">
-              Location: No 90/1 Aranmanai Street, Vadakarai, Periyakulam, Theni
-              - 625601
+              Address: No 89 Aranmanai Street, Vadakarai, Periyakulam, Theni -
+              625601
             </p>
           </div>
         </div>
